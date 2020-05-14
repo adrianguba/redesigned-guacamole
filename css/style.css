@@ -1,0 +1,52 @@
+.main-content {
+    padding-top: 50px;
+}
+.main-content .form-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.main-content .form-header img {
+    max-width: 50%;
+}
+.main-content .form-content {
+    border: 1px solid #9E9E9E;
+    border-radius: 3px;
+    padding: 15px;
+}
+.main-content .form-content label {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.main-content .form-content input, .main-content .form-content select {
+    margin-bottom: 10px;
+    width:80%;
+    height: 35px;
+}
+.main-content .form-content select {
+    background: white;
+}
+.main-content .form-content label, .main-content .form-content input {
+    display: block;
+}
+.main-content .form-content input[type=submit] {
+    background: #00a0d2;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+.main-content .form-content input[type=checkbox] {
+    display: inline-block;
+    width: initial;
+    height: initial;
+}
+.main-content .form-content .agreement {
+    font-weight: initial;
+}
+.main-content .form-content input[type=email].invalid {
+    border: 2px solid red;
+}
+@media screen and (max-width: 767px) {
+    .main-content .form-content input, .main-content .form-content select {
+        width: 100%;
+    }
+}
